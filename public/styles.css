@@ -28,11 +28,11 @@ body {
 .custom-clock-card{
     text-align: center;
     height: 300px;
-    width: 32%;
+    width: 50%;
     /* background-color: #ECF9FF; */
 
     position: relative;
-    left : 34%;
+    left : 25%;
     top : 50px;
     border-radius: 10px;
     padding-top: 10px;
