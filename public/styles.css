@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-image: url("blackSkyImage1.jpg");
+    background-size: 100%; 
+    background-color: black;
+}
+
+.clock-card {
+    text-align: center;
+    height: 200px;
+    width: 31%;
+    /* background-color: #ECF9FF; */
+
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    border : 3px solid #EEEEEE;
+
+    color : white;
+}
+
+.custom-clock-card{
+    text-align: center;
+    height: 300px;
+    width: 32%;
+    /* background-color: #ECF9FF; */
+
+    position: relative;
+    left : 34%;
+    top : 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+    border : 3px solid #EEEEEE;
+
+    color : white;
+}
+.invalid-timezone{
+    text-align: center;
+    height: 200px;
+    width: 32%;
+    position: relative;
+    left : 34%;
+    top : 50px;
+    border-radius: 10px;
+    padding-top: 70px;
+    border : 3px solid #EEEEEE;
+
+    color : white;
+}
+
+.invalid-text{
+    font-size: 50px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 5px;
+    color: #0E8388;
+    text-shadow: 2px 2px 3px #D21312;
+
+}
+
+.timezone {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.custom-timezone{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 20px;
+    margin-top : 5px;
+    margin-bottom : 5px;
+}
+
+.custom-date{
+    font-size: 40px;
+    margin-top : 5px;
+    margin-bottom : 5px;
+}
+
+.time {
+    font-size: 80px;
+    font-weight: bold;
+    color : #0E8388;
+}
+
+.custom-time{
+    font-size: 120px;
+    font-weight: bold;
+    color : #0E8388;
+}
+
+.utc {
+    font-size: 20px;
+    margin-top : 5px;
+}
+
+.custom-utc{
+    font-size: 30px;
+    margin-top : 5px;
+}
+
+.icon-image {
+    height: 100px;
+    width: 100px;
+    position : relative;
+    top : 18px;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    border : 3px solid #0E8388;
+}
+
+.input:focus{
+    border : 3px solid red;
+}
+.input-container {
+
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    height : 60px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    display : inline;
+    border-radius: 10px;
+    background-color: #F15A59;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.button-container{
+
+    display: flex;
+    justify-content: center;
+    gap : 10px;
+}
